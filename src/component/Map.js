@@ -42,14 +42,13 @@ import {
 } from '@mui/icons-material';
 
 // Use environment variable for Mapbox token
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
-
-// Validate token
-if (!mapboxgl.accessToken) {
+const token = process.env.REACT_APP_MAPBOX_TOKEN;
+if (!token) {
   throw new Error(
     "You need to provide a Mapbox token in your .env file. See .env.example for more info."
   );
 }
+mapboxgl.accessToken = token;
 
 const TRANSPORT_MODES = [
   { id: 'driving', label: 'Drive', icon: <DirectionsCar />, emoji: '🚗' },
