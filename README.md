@@ -1,3 +1,66 @@
+# Navigation App
+
+A modern navigation application built with React and Mapbox GL JS, featuring multiple map styles, real-time navigation, and location search.
+
+## Features
+
+- Multiple map styles (Streets, Satellite, Light, Dark, etc.)
+- Real-time navigation
+- Location search with suggestions
+- Category-based POI filtering
+- Current location tracking
+- Responsive design
+- Dark mode support
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd frontend
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+   - Copy `.env.example` to `.env`
+   - Replace `your_mapbox_token_here` with your actual Mapbox token
+```bash
+cp .env.example .env
+```
+
+4. Start the development server:
+```bash
+npm start
+```
+
+## Environment Variables
+
+The following environment variables are required:
+
+- `REACT_APP_MAPBOX_TOKEN`: Your Mapbox GL JS access token
+
+You can obtain a Mapbox token by signing up at [https://www.mapbox.com/](https://www.mapbox.com/)
+
+## Security Note
+
+Never commit your `.env` file or expose your Mapbox token in public repositories. The `.env` file is included in `.gitignore` to prevent accidental commits.
+
+## Development
+
+To contribute to this project:
+
+1. Create a new branch for your feature
+2. Make your changes
+3. Create a pull request
+
+## License
+
+MIT
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
