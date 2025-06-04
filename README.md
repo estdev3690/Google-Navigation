@@ -16,7 +16,7 @@ A modern navigation application built with React and Mapbox GL JS, featuring mul
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/estdev3690/Navigation_Map.git
 cd frontend
 ```
 
