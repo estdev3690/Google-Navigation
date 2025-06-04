@@ -11,7 +11,13 @@ A modern navigation application built with React and Mapbox GL JS, featuring mul
 - Current location tracking
 - Responsive design
 - Dark mode support
+## Map Views
 
+### Light Map View
+![Light Map View](./public/maplightimage.png)
+
+### Satellite Map View
+![Satellite Map View](./public/mapsatelitimage.png) 
 ## Setup
 
 1. Clone the repository:
